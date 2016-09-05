@@ -56,15 +56,19 @@ Sorting
     The bubble sort orders by iterating through each item and moving the highest order item to the back each time it iterates.
 
 2. Describe in words how the Merge Sort algorithm works.
-    Merge sort works 
+    Merge sort works by taking 2 already sorted objects, taking the first element in each and comparing which is lower, then adding the lowest order item to a new, third list in ascending order. 
 
 3. Describe in words how the Quick Sort algorithm works.
+    Quicksort works by taking a random item in an object and sorting the other items first in relation to the random pick. Then it uses that random number as
+    the pivot/dividing point, making everything before it one list and everything after it another list. It sorts each 'sublist', then returns the final list of the first sublist, the pivot, and the second sublist.
 
 Git Branching
 
 1. Give an instance when you would use git branching.
-    You would
+    You would use git branching if you had a finished product of a project but wanted to add more features or make changes. Branching would allow you to have a copy based on the finished product to test on and break while preserving it in its original state.
+    
 2. What is a pull request?
+    A pull request happens when contributors to a project have made proposed changes to the project and are pushing their merges to the main repo for approval by the project owner(s)
 
 
 
