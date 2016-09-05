@@ -1,0 +1,72 @@
+Recursion
+
+1. In your own words, what is Recursion?
+    Recursion is the concept of a function calling itself, within itself. 
+2. Why is it necessary to have a Base Case?
+    A base case prevents infinite looping or a never-ending process that could
+    occur when a function is calling itself. It is the case that tells the 
+    recursion to stop.
+
+Graphs
+
+1. What is a Graph?
+    A graph is way of structuring data/objects that are related to one another.
+2. How is a Graph different from a Tree?
+    A tree is a type of a graph, but the nodes of a tree can only have one parent
+    and there can be no loops/complete circuits.
+3. Give an example of somthing that would be good to model with a Graph.
+    You can graph the relationships of characters in a complex novel or TV show, such as Game of Thrones, where many people are interrelated and there isn't 
+    a strict hierarchy.
+
+Performance of Data Structures
+
+Data Structure     |   Index  |  Search  |  Add-R  |  Add-L  |  Pop-L  |  Pop-R  |
+----------------------------------------------------------------------------------
+Python List/Array       O(1)      O(n)      O(1)       O(n)     O(n)      O(1)
+
+Linked List             O(n)      O(n)      O(n)       O(1)     O(1)      O(n)    **without tail
+
+Doubly-Linked List      O(n)      O(n)      O(1)       O(1)     O(1)      O(1)
+
+Queue (as Array)        x           x       O(1)       x        O(1)      x
+
+Queue (as LL or DLL)    x           x       O(1)       x        O(1)      x
+
+Stack (as Array, LL,
+    or DLL)             x           x       O(1)        x       x         O(1)
+
+Deque (as DLL)          x           x       O(1)       O(1)     O(1)      O(1)
+
+
+
+
+Data Structure         |   Get  |  Add  |  Delete  |  Iterate  |  Memory  |
+--------------------------------------------------------------------------------
+
+Set (hash map)             O(1)    O(1)     O(1)        O(n)      medium
+
+Binary Search Tree     O(log n)    O(n)     O(n)        O(n)      a lot
+
+Tree                       O(n)    O(n)     O(n)        O(n)      a lot
+
+
+Sorting
+
+1. Describe in words how the Bubble Sort algorithm works.
+    The bubble sort orders by iterating through each item and moving the highest order item to the back each time it iterates.
+
+2. Describe in words how the Merge Sort algorithm works.
+    Merge sort works 
+
+3. Describe in words how the Quick Sort algorithm works.
+
+Git Branching
+
+1. Give an instance when you would use git branching.
+    You would
+2. What is a pull request?
+
+
+
+
+
