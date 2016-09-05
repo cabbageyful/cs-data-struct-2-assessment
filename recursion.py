@@ -86,11 +86,12 @@ def num_nodes(tree):
         >>> num_nodes(one)
         3
     """
+
     if not tree.children:
         return 1
 
-    for node in tree.children:
-        return 1 + num_nodes(tree.children[1:])
+    return 1 + num_nodes(tree.children[1:])
+
 
 #####################################################################
 # END OF ASSIGNMENT: You can ignore everything below.
